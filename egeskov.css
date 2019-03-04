@@ -1,0 +1,178 @@
+*{margin:0;
+ padding:0;
+}
+html{
+    font-size: 10px;
+font-family: "verdana", sans-serif;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 1.4rem;
+}
+
+.imagen {
+    width:50%;
+    height:50vh;
+}
+
+.container{
+    border-width: 50%;
+}
+/*header*/
+header{
+    width:100%;
+    height:100vh;
+    background: url("hej.jpg") bottom no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    
+}
+/*header - nav*/
+.nav{  
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+   
+    
+}
+
+.nav li{display: inline;
+     
+}
+
+.nav a{
+    display: inline-block; font-variant-caps: petite-caps;
+     font-size: 15px;
+      color:white;
+    padding:10px;
+    text-decoration: none;
+
+}
+
+.nav ul{text-align: center;
+    
+}
+
+/*header - Main text*/
+.main-text{
+    
+
+    line-height:0;
+    margin:auto;
+    color:white;
+    user-select: none;
+}
+
+.main-text h1{
+    font-size:5rem;
+    margin-bottom:5rem;
+}
+
+.main-text h2{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-right:-5px;
+    font-size: 1rem;
+    line-height:2;
+    position:relative;
+    text-align: center;
+}
+
+
+/*Section - praktisk*/
+#praktiskid{
+    float:right;
+    background-color: green;
+    width:50%;
+    text-align: center;
+    height:50vh;
+}
+
+#praktiskf{
+    float:left;
+}
+/*Section - our-menu*/
+
+.our-menu{
+    background-color: brown;
+    
+}
+.column{
+    margin-top:5%;
+    float:left;
+    width:25%;
+    text-align: center;
+    margin-bottom: 5%;
+   
+}
+.row:after{
+    display: table;
+    clear:both;
+    
+}
+
+.our-menu h1{
+    text-align: center;
+}
+
+
+/*Section - who-we-are*/
+#weare{
+    float:left;
+    background-color: green;
+    width:50%;
+    text-align: center;
+    height:50vh;
+   
+}
+
+#weare h1{
+    padding-top:19%;
+}
+#weare p{
+    padding: 5%;
+}
+
+#weare a{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+}
+#whow{
+    float:right;
+}
+
+/*section - */
+#hej {
+    float:right;
+}
+
+#karl {float:left;;
+    background-color: green;
+    width:50%;
+    text-align: center;
+    height:50vh;}
+/*Section - calender*/
+#date{ 
+    float:right;
+    background-color: green;
+    width:50%;
+    text-align: center;
+    height:50vh;}
+
+}
+#calenderp {float:left;}
+/*Section - book*/
+#bookp{float:right;}
+#bookus{ float:left;
+    background-color: green;
+    width:50%;
+    text-align: center;
+    height:50vh;}
+
+
