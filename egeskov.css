@@ -98,11 +98,12 @@ header{
 }
 /*Section - our-menu*/
 
-.our-menu{
+..our-menu{
     background-color: brown;
     
 }
 .column{
+    
     margin-top:5%;
     float:left;
     width:25%;
@@ -110,16 +111,20 @@ header{
     margin-bottom: 5%;
    
 }
-.row:after{
-    display: table;
-    clear:both;
-    
-}
+
+.row {
+      margin-left: 10%;
+    margin-right:10%;}
 
 .our-menu h1{
     text-align: center;
 }
 
+#more{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
 
 /*Section - who-we-are*/
 #weare{
